@@ -6,12 +6,12 @@ using namespace std;
 
 int main(){
     //freopen("input.txt","r",stdin);
-    printf("Read Carefully!\n\tIf you want to Input %c you have to input a value that is more than 60 \n\t that value count as infinity ",236);
-    int adj[100][100];
-    int i,j,k;
     int node,m,n,val;
     cout<<"Enter Nodes Number:";
     cin>>node;
+    printf("Read Carefully!\n\tIf you want to Input %c you have to input a value that is more than 60 \n\t that value count as infinity ",236);
+    int adj[node+1][node+1];
+    int i,j,k;
     for( i = 1; i <= node; i++ ){
         printf("\nEnter %d No. row : ",i);
         for( j = 1; j <= node; j++ ){
