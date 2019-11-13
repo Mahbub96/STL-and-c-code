@@ -12,8 +12,8 @@ int main(){
     cout<<"Enter Nodes Number:";
     cin>>node;
     for( i = 1; i <= node; i++ ){
+        printf("\nEnter %d No. row : ",i);
         for( j = 1; j <= node; j++ ){
-            cout<<"Enter Adj Matrix data for ["<<i<<"] ["<<j<<"] :";
             cin>>adj[i][j];
         }
     }
